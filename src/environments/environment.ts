@@ -4,5 +4,13 @@
 // The list of which env maps to which file can be found in `.angular-cli.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebaseConfig: {
+    apiKey: 'AIzaSyASsMaVPLDQ1UelIOLvsu-hiJg-QTUu20s',
+    authDomain: 'taskplanner-666.firebaseapp.com',
+    databaseURL: 'https://taskplanner-666.firebaseio.com',
+    projectId: 'taskplanner-666',
+    storageBucket: '',
+    messagingSenderId: '469053755274'
+  }
 };
